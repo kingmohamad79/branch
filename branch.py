@@ -1,4 +1,4 @@
-def fact(n):
+def fact(n:int):
     if n<= 1:
         return 1
     
@@ -6,5 +6,4 @@ def fact(n):
 
     return b
 
-
-print(fact(3))
+x = fact(5)
